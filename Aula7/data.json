@@ -1,0 +1,34 @@
+[
+    {
+      "type": "car",
+      "brand": "ferrari",
+      "speed": 900,
+      "image": "Images/2021-ferrari-omologata.webp"
+    },
+    {
+      "type": "car",
+      "brand": "BMW",
+      "speed": 80,
+      "image":"Images/bmw-i5_desktop-video_DF23_000135548.webp"
+    },
+    {
+      "type": "motorcycle",
+      "brand": "ducatti",
+      "speed": 900,
+      "image": "Images/ducatti.jpeg"
+    },
+    {
+      "type": "motorcycle",
+      "brand": "honda",
+      "speed": 600,
+      "image": "Images/c5lpws2nz5cvbkqq3wjtntqgju3.png"
+    },
+    {
+      "type": "boat",
+      "brand": "titanic",
+      "speed": 2000,
+      "image": "Images/59775562_1006.webp"
+    }
+  ]
+
+ 
