@@ -7,6 +7,7 @@ window.onload = async () => {
     const result = await request.json();
 
     const zoo = new Zoo((animal) => {
+        document.querySelector("h2").innerText = animal.introduce();
         audioPlayer.play(animal.sound);
     });
     result.forEach(item => {

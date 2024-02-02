@@ -9,9 +9,12 @@ export default class Bird extends Animal {
         this.#canFly = data.canFly;
     }
 
-    fly() {
+    introduce() {
+
+        let parentIntroduce = super.introduce();
+
         return this.#canFly ? 
-        this.introduce() + " and I can fly" :
-        this.introduce() + " and I can't fly";
+        parentIntroduce + " and I can fly" :
+        parentIntroduce + " and I can't fly";
     }
 }

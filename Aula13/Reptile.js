@@ -10,9 +10,11 @@ export default class Reptile extends Animal {
         this.#isAgressive = data.isAgressive;
     }
 
-    bite() {
+    introduce() {
+        let parentIntroduce = super.introduce();
+
         return this.#isAgressive ? 
-        this.introduce() + " and I'm agressive'" :
-        this.introduce() + " and I'm peacefull";
+        parentIntroduce + " and I'm agressive" :
+        parentIntroduce + " and I'm peacefull";
     }
 }

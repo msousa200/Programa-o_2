@@ -9,7 +9,9 @@ export default class Mammal extends Animal {
         this.#numLegs = data.numLegs;
     }
 
-    walk() {
-        return this.introduce() + " walking on " + this.#numLegs + " legs";
+    introduce() {
+        let parentIntroduce = super.introduce();
+        
+        return parentIntroduce + " walking on " + this.#numLegs + " legs";
     }
 }

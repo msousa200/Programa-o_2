@@ -54,5 +54,28 @@
         "numLegs": 0,
         "sound": "https://cdn.pixabay.com/audio/2022/03/10/audio_60ff5b13f4.mp3",
         "image": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Southern_right_whale.jpg"
+    },
+    {
+        "type":"fish",
+        "name": "cod",
+        "saltWater": true,
+        "sound": "https://cdn.pixabay.com/audio/2022/03/10/audio_5d9ac81564.mp3",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYD5zi9bgrLo_cyDHGbaNUhOnKZHtlLzHXHA&s"
+    },
+    {
+        "type":"fish",
+        "name":"eel",
+        "saltWater": false,
+        "sound": "https://cdn.pixabay.com/audio/2021/08/04/audio_9fb0d24edb.mp3",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiumOvECPkY0VSsEoncNcomwcwLBZdO9Vc3Q&s"
+    },
+    {
+        "type":"insect",
+        "name":"gnat",
+        "canFly": true,
+        "sound": "https://cdn.pixabay.com/audio/2022/03/15/audio_1b1cfd7e9d.mp3",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmnxaNsp2SS5NOGEc38RUBrovT87ULNFCv5PqQzdf-VI5YkjMEhnupMWXIYhTgsLsuExk&usqp=CAU"
+
     }
+
 ]

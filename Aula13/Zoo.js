@@ -1,6 +1,8 @@
 import Bird from "./Bird.js";
+import Fish from "./Fish.js";
 import Mammal from "./Mammal.js";
 import Reptile from "./Reptile.js";
+import Insect from "./Insect.js";
 
 export default class Zoo {
 
@@ -13,19 +15,27 @@ export default class Zoo {
     }
 
     addAnimal(animal) {
+        let nextAnimal = null;
         switch (animal.type) {
             case "bird":
-                this.#animals.push(new Bird(animal, () => this.#performAnimal(animal)));
+                nextAnimal = new Bird(animal, () => this.#performAnimal(nextAnimal));
                 break;
             case "mammal":
-                this.#animals.push(new Mammal(animal, () => this.#performAnimal(animal)));
+                nextAnimal = new Mammal(animal, () => this.#performAnimal(nextAnimal));
                 break;
             case "reptile":
-                this.#animals.push(new Reptile(animal, () => this.#performAnimal(animal)));
+                nextAnimal = new Reptile(animal, () => this.#performAnimal(nextAnimal));
+                break;
+            case "fish":
+                nextAnimal = new Fish(animal, () => this.#performAnimal(nextAnimal));
+                break;
+            case "insect":
+                nextAnimal = new Insect(animal, () => this.#performAnimal(nextAnimal));
                 break;
             default:
                 break;
         }
+        this.#animals.push(nextAnimal);
     }
 
     #performAnimal(animal) {
@@ -35,7 +45,6 @@ export default class Zoo {
 
         this.#currentAnimal = this.#animals.find(anim => anim.name === animal.name);
         this.#currentAnimal.active = true;
-        document.querySelector("h2").innerText = this.#currentAnimal.name;
         
         this.#callback(animal);
     }
