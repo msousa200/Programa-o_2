@@ -1,0 +1,82 @@
+[
+
+    {
+        "type":"sculpture",
+        "title":"The Thinker",
+        "medium":"bronze",
+        "image":"https://i.pinimg.com/564x/1b/82/f1/1b82f178074f90f46828b1afbf90084e.jpg",
+        "artist":"Auguste Rodin"
+
+    },
+
+    {
+        "type":"sculpture",
+        "title":"Venus de Milo",
+        "medium":"marble",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsgFe8ykuV4MWO1xtyfKqKtI2g-GefRT5MXn0Htnpg9-WljTNS0_dBJ2JRBg1wDSS9ITI&usqp=CAU",
+        "artist":"Alexandre de Antioquia"
+
+    },
+
+    {
+        "type":"sculpture",
+        "title":"The kiss",
+        "medium":"marble",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4lxd_lqyhL7912DKjjVTwixLtkJdWozx-gw&s",
+        "artist":"Auguste Rodin"
+
+    },
+
+    {
+        "type":"painting",
+        "title":"The last supper",
+        "medium":"fresco",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb0wRyldX5IbUf3FF2FvHpIBmgesvZyv-hg_fKBrhzwA&s",
+        "artist":"Leonardo da Vinci"
+    },
+
+    {
+        "type":"photo",
+        "title":"The Kiss at the Hôtel de Ville",
+        "medium":"black and white",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy2jk6dmdaM0146NDQ3GQjteziGMonYIi4Yg&s",
+        "artist":"Robert Doisneau"
+    },
+
+
+    {
+        "type":"painting",
+        "title":"Mona Lisa",
+        "medium":"oil on canvas",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/640px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+        "artist":"Leonardo da Vinci"
+
+    },
+
+    {
+        "type":"painting",
+        "title":"Noite Estrelada",
+        "medium":"oil on canvas",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1200px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+        "artist":"Vincent van Gogh"
+    
+    },
+
+    {
+        "type":"photo",
+        "title":"Lunch atop a Skyscraper",
+        "medium":"black and white",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkHA2N6zwX0Tm7yUbudX9RbNTsbisJ0z96NwR5DnbnXEklTdWqqzBcKBdrhv8e6cccqsw&usqp=CAU",
+        "artist":"Charles C. Ebbets"
+    
+    },
+
+    {
+        "type":"photo",
+        "title":"Afghan Girl",
+        "medium":"colors",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1MMlWKRW4OGEojsL9TT0_EDAiXOG6YHAq1AiE0K9bSDf2YFWvUKrmndDF1ErPzrUbbQY&usqp=CAU",
+        "artist":"Steve McCurry"
+    
+    }
+]
